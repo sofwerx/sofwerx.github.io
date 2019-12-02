@@ -1,5 +1,4 @@
 import "./styles.scss";
-// import "./js/paralax.js";
 
 // document.getElementById("app").innerHTML = `
 // <h1>Hello Vanilla!</h1>

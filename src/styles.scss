@@ -1,5 +1,7 @@
-@import "styles/paralax.scss";
-@import "styles/AR-Styles.scss";
+// Browser Styling Reset
+@import "styles/_reset";
+
+@import "styles/_base";
 
 body {
   font-family: sans-serif;
