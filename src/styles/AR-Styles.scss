@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
+.fa {
+  padding: 2px;
+  font-size: 22px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #000000;
+  color: white;
+}
+.fa-skype {
+  background: #000000;
+  color: white;
+}
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+.fa-pinterest {
+  background: #000000;
+  color: white;
+}
+.fa-youtube {
+  background: #000000;
+  color: white;
+}
+
+* {box-sizing: border-box}
+body {font-family: 'Josefin Sans', Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #F2F2F2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #F2F2F2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+h1 {
+ text-align: center;
+ font-family: Times New Roman;
+ font-size: 1em;
+ font-weight: normal;
+ font-variant: small-caps;
+ color: #000000;
+}

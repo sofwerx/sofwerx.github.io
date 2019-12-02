@@ -1,8 +1,8 @@
-# ClockWERX Event Clock Timer
+# SOFWERX.github.io
 
 ## Overview
 
-This project creates a React App utilized on the client side to communicate and run timer functions for multiple event clocks stationed in different conference rooms.
+This project creates a Vanilla JS App utilized on the client side to communicate SOFWERX Github information.
 
 
 ## Requirements
@@ -31,7 +31,7 @@ Please install [Homebrew](http://brew.sh/) if it's not already done with the fol
 
     $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-If everything when fine, you should run
+If everything went fine, you should run
 
     brew install node
 
@@ -51,21 +51,11 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ## Install
 
-You should have already installed node.js on your machine and [cloned the repo](https://github.com/sofwerx/Clockwerx.git) however if you haven't please visit GitHub and proceed through the following instructions.
+You should have already installed node.js on your machine and [cloned the repo](https://github.com/sofwerx/sofwerx.github.io.git) however if you haven't please visit GitHub and proceed through the following instructions.
 
-    $ git clone https://github.com/sofwerx/Clockwerx.git
-    $ cd Clockwerx/src/EventClock_FE
+    $ git clone https://github.com/sofwerx/sofwerx.github.io.git
+    $ cd sofwerx.github.io
     $ npm i
-
-### Configure app
-
-    This section needs an update
-
-Copy `config.sample.json` to `config.json` then edit it with the url where you have setup:
-
-- backend api
-- oauth like endpoint for auth
-- development
 
 ## Available Scripts
 
@@ -74,7 +64,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.

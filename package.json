@@ -8,6 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "js": "^0.1.0",
     "node-sass": "4.13.0"
   },
   "devDependencies": {
