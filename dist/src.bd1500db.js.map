@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.js"],"names":[],"mappings":";;;AAAA,aAAA,QAAA","file":"src.bd1500db.js","sourceRoot":"..","sourcesContent":["import \"./styles.scss\";\n\n// document.getElementById(\"app\").innerHTML = `\n\n// `;\n\n"]}

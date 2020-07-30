@@ -303,5 +303,9 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  color: #58595b;
+  background-image: linear-gradient(to bottom, #28282a, #000000); }
+
 
 /*# sourceMappingURL=/src.a2b27638.css.map */
