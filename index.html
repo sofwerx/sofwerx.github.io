@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SOFWERX on GitHub sup dog</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- This line of code is in place so that the social media icons at the bottom display properly. -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <title>SOFWERX Publications</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/assets/css/app.css">
 </head>
 <body>
 
-    <!-- likely can change file source for logo -->
-    <h1>
-      <a href="https://sofwerx.org" target="_blank">
-          <img src="https://www.sofwerx.org/wp-content/uploads/cropped-sofwerx_white.png" alt="SOFWERX LOGO">
-      </a>
-  </h1>
+    <header class="header">
+        <div class="container">"
+            <a href="https://sofwerx.org">
+                <img src="src/assets/images/cropped-sofwerx_white.png"/>
+            </a>
+        </div>
+    </header>
 
-  <!-- Ideally this would be a slideshow with some stuff TBD -->
-    <!--
-  <video loop="loop" autoplay="" playsinline="" muted="" width="" height="" id="mejs_26078911994038356_html5" preload="none" src="https://www.teamwerx.org/wp-content/uploads/2018/03/International-Special-Operations-Forces-conduct-a-capabilities-demonstration.mp4" style="margin: 0px; width: 100%; height: au;">
-      <source type="video/mp4" src="https://www.teamwerx.org/wp-content/uploads/2018/03/International-Special-Operations-Forces-conduct-a-capabilities-demonstration.mp4">
-      <source type="video/webm" src="https://www.teamwerx.org/wp-content/uploads/2018/03/International-Special-Operations-Forces-conduct-a-capabilities-demonstration.webm">
-  </video>
--->
-  <p>This is a paragraph.</p>
-    <p class="tabcontent">
-        <img src="images/square_bullet.gif" alt="" width="12" height="11">
-        <a href="https://sofwerx.github.io/docs/ZeroTrustNetwork.pdf">Zero Trust Network</a>
-        <br/>
-        <span class="publication">&nbsp;&nbsp;&nbsp;&nbsp;SOFWERX Whitepaper - July 29, 2020</span>
-        <br>
+    <p>
+    <div class="pub-title">ATAK Low Latency Camera Platform (ALLCaP)</div>
+    <div class="pub-authors">Jason Young & Jim Ladd</div>
+    <div class="pub-date">July 29, 2020</div>
+    <div class="spacer"></div>
+    <div class="pub-description">The ATAK Low Latency Camera Platform (ALLCaP) is a proof of concept
+        that provides near real-time video display. The viewing device is an ATAK enabled tablet or
+        phone while the video source is a USB-based camera or another ATAK enabled device.  This
+        approach does not rely on signaling, discovery, or intermediary servers and can be used
+        with Wi-Fi or software defined radio (SDR) radios.  The project uses the Android Tactical
+        Awareness Kit, UV4L, and webrtc-streamer software.
+    </div>
+    <div class="spacer"></div>
+    <div><a href="https://sofwerx.github.io/docs/ALLCaP.pdf">See the publication</a></div>
+    <div class="spacer"></div>
+    <hr class="vertical-line"></hr>
     </p>
 
-  <!-- Once again, may remove image or at least image source --> <!-- Also, maybe add google font text "contact" as well -->
-<!--
-  <a href="https://github.com/sofwerx">
-      <img src="http://aroark.myweb.usf.edu/anchor_sofwerx.png" alt="SOFWERX GitHub Link" height=75 width=75>
-  </a><!-- probably should remove height & weight? -->
--->
-  <!-- Possible Social Media Icons around here?? -->
+    <p>
+        <div class="pub-title">Integrating Finite State Models with React and Redux</div>
+        <div class="pub-authors">Jim Ladd</div>
+        <div class="pub-date">June 29, 2020</div>
+        <div class="spacer"></div>
+        <div class="pub-description">This paper presents how Finite State Models (FSM) can be utilized
+            to increase the knowledge and specification of the problem domain and drive the design of
+            React/Redux-based software in the solution domain.
+        </div>
+        <div class="spacer"></div>
+        <div><a href="https://sofwerx.github.io/docs/ReactReduxFSM.pdf">See the publication</a></div>
+        <div class="spacer"></div>
+        <hr class="vertical-line"></hr>
+    </p>
 
-  <script src="src/index.js"></script>
+    <p>
+        <div class="spacer"></div>
+        <div class="pub-title">Zero Trust Network</div>
+        <div class="pub-authors">Jim Ladd</div>
+        <div class="pub-date">May 13, 2020</div>
+        <div class="spacer"></div>
+        <div class="pub-description">Zero Trust Networks (ZTN) represent a new wave of network
+            security technology.  The mantra with this approach is “Never trust, always verify”.
+            This paper describes a Zero Trust Network implementation constructed using a Service
+            Oriented Architecture (SOA) with open source, community version, and custom software.
+            The key components include Drools, XGBoost, NGINX, Mender, and WSO2 hosted on AWS EC2
+            instances.
+        </div>
+        <div class="spacer"></div>
+        <div><a href="https://sofwerx.github.io/docs/ZeroTrustNetwork.pdf">See the publication</a></div>
+        <div class="spacer"></div>
+        <hr class="vertical-line"></hr>
+    </p>
+
+    <script src="src/index.js"></script>
 </body>
 </html>
