@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "js": "^0.1.0",
-    "node-sass": "4.13.0",
+    "node-sass": "7.0.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
